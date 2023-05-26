@@ -1,0 +1,1568 @@
+diary on
+%Соcновец Мария ПОИТ 4
+%Присваивание переменной a значение 4
+a = 4
+
+a =
+
+     4
+
+%Присваивание переменной b значение 7
+b = 7
+
+b =
+
+     7
+
+%Сложение
+a + b
+
+ans =
+
+    11
+
+%Умножение
+a * b
+
+ans =
+
+    28
+
+%Деление
+b / a
+
+ans =
+
+    1.7500
+
+%Вычитание
+b - a
+
+ans =
+
+     3
+
+%Возведение в степень
+a ^ 2
+
+ans =
+
+    16
+
+%Корень квадратный
+sqrt(b)
+
+ans =
+
+    2.6458
+
+%Вычисление натурального логарифма
+log(a)
+
+ans =
+
+    1.3863
+
+%Вычисление логарифма по основанию 10
+log10(b)
+
+ans =
+
+    0.8451
+
+%Вычисление модуля
+abs(-5)
+
+ans =
+
+     5
+
+%Вычисление угла
+sin(7 * pi / 3)
+
+ans =
+
+    0.8660
+
+%Отбрасывание дробной части
+floor(3.8)
+
+ans =
+
+     3
+
+%Создание вектора-строки
+x = [1, 2, 3]
+
+x =
+
+     1     2     3
+
+%Создание вектора-столбца
+x = [1; 2; 3]
+
+x =
+
+     1
+     2
+     3
+
+%Задание матрицы 3х4
+A = [1,2,3,4; 5,6,7,8; 9,2,5,4]
+
+A =
+
+     1     2     3     4
+     5     6     7     8
+     9     2     5     4
+
+%Изменить значение x [1 , 2, 3] на [1, 0, 3]
+x(2)=0
+
+x =
+
+     1
+     0
+     3
+
+%Создание матрицы из нулей 12х5
+zeros(12, 5)
+
+ans =
+
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+
+%Создание матрицы из единиц 12х5
+ones(12, 5)
+
+ans =
+
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+     1     1     1     1     1
+
+%Единичная матрица 4х4
+eye(4)
+
+ans =
+
+     1     0     0     0
+     0     1     0     0
+     0     0     1     0
+     0     0     0     1
+
+%Единичная матрица 12х5
+eye(12,5)
+
+ans =
+
+     1     0     0     0     0
+     0     1     0     0     0
+     0     0     1     0     0
+     0     0     0     1     0
+     0     0     0     0     1
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+     0     0     0     0     0
+
+%Вектор из 1004 элементов,где натур.логарифм расстояния между элементами равномерно нарастает от 1.4 до 6.3
+logspace(1.4, 6.3, 1004)
+
+ans =
+
+   1.0e+06 *
+
+  Columns 1 through 4
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 5 through 8
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 9 through 12
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 13 through 16
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 17 through 20
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 21 through 24
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 25 through 28
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 29 through 32
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 33 through 36
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 37 through 40
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 41 through 44
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 45 through 48
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 49 through 52
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 53 through 56
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 57 through 60
+
+    0.0000    0.0000    0.0000    0.0000
+
+  Columns 61 through 64
+
+    0.0000    0.0000    0.0001    0.0001
+
+  Columns 65 through 68
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 69 through 72
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 73 through 76
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 77 through 80
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 81 through 84
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 85 through 88
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 89 through 92
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 93 through 96
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 97 through 100
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 101 through 104
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 105 through 108
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 109 through 112
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 113 through 116
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 117 through 120
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 121 through 124
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 125 through 128
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 129 through 132
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 133 through 136
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 137 through 140
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 141 through 144
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 145 through 148
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 149 through 152
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 153 through 156
+
+    0.0001    0.0001    0.0001    0.0001
+
+  Columns 157 through 160
+
+    0.0001    0.0001    0.0001    0.0002
+
+  Columns 161 through 164
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 165 through 168
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 169 through 172
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 173 through 176
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 177 through 180
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 181 through 184
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 185 through 188
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 189 through 192
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 193 through 196
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 197 through 200
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 201 through 204
+
+    0.0002    0.0002    0.0002    0.0002
+
+  Columns 205 through 208
+
+    0.0002    0.0003    0.0003    0.0003
+
+  Columns 209 through 212
+
+    0.0003    0.0003    0.0003    0.0003
+
+  Columns 213 through 216
+
+    0.0003    0.0003    0.0003    0.0003
+
+  Columns 217 through 220
+
+    0.0003    0.0003    0.0003    0.0003
+
+  Columns 221 through 224
+
+    0.0003    0.0003    0.0003    0.0003
+
+  Columns 225 through 228
+
+    0.0003    0.0003    0.0003    0.0003
+
+  Columns 229 through 232
+
+    0.0003    0.0003    0.0003    0.0003
+
+  Columns 233 through 236
+
+    0.0003    0.0003    0.0003    0.0004
+
+  Columns 237 through 240
+
+    0.0004    0.0004    0.0004    0.0004
+
+  Columns 241 through 244
+
+    0.0004    0.0004    0.0004    0.0004
+
+  Columns 245 through 248
+
+    0.0004    0.0004    0.0004    0.0004
+
+  Columns 249 through 252
+
+    0.0004    0.0004    0.0004    0.0004
+
+  Columns 253 through 256
+
+    0.0004    0.0004    0.0004    0.0004
+
+  Columns 257 through 260
+
+    0.0004    0.0005    0.0005    0.0005
+
+  Columns 261 through 264
+
+    0.0005    0.0005    0.0005    0.0005
+
+  Columns 265 through 268
+
+    0.0005    0.0005    0.0005    0.0005
+
+  Columns 269 through 272
+
+    0.0005    0.0005    0.0005    0.0005
+
+  Columns 273 through 276
+
+    0.0005    0.0005    0.0005    0.0006
+
+  Columns 277 through 280
+
+    0.0006    0.0006    0.0006    0.0006
+
+  Columns 281 through 284
+
+    0.0006    0.0006    0.0006    0.0006
+
+  Columns 285 through 288
+
+    0.0006    0.0006    0.0006    0.0006
+
+  Columns 289 through 292
+
+    0.0006    0.0006    0.0007    0.0007
+
+  Columns 293 through 296
+
+    0.0007    0.0007    0.0007    0.0007
+
+  Columns 297 through 300
+
+    0.0007    0.0007    0.0007    0.0007
+
+  Columns 301 through 304
+
+    0.0007    0.0007    0.0008    0.0008
+
+  Columns 305 through 308
+
+    0.0008    0.0008    0.0008    0.0008
+
+  Columns 309 through 312
+
+    0.0008    0.0008    0.0008    0.0008
+
+  Columns 313 through 316
+
+    0.0008    0.0008    0.0009    0.0009
+
+  Columns 317 through 320
+
+    0.0009    0.0009    0.0009    0.0009
+
+  Columns 321 through 324
+
+    0.0009    0.0009    0.0009    0.0010
+
+  Columns 325 through 328
+
+    0.0010    0.0010    0.0010    0.0010
+
+  Columns 329 through 332
+
+    0.0010    0.0010    0.0010    0.0010
+
+  Columns 333 through 336
+
+    0.0011    0.0011    0.0011    0.0011
+
+  Columns 337 through 340
+
+    0.0011    0.0011    0.0011    0.0011
+
+  Columns 341 through 344
+
+    0.0012    0.0012    0.0012    0.0012
+
+  Columns 345 through 348
+
+    0.0012    0.0012    0.0012    0.0012
+
+  Columns 349 through 352
+
+    0.0013    0.0013    0.0013    0.0013
+
+  Columns 353 through 356
+
+    0.0013    0.0013    0.0013    0.0014
+
+  Columns 357 through 360
+
+    0.0014    0.0014    0.0014    0.0014
+
+  Columns 361 through 364
+
+    0.0014    0.0015    0.0015    0.0015
+
+  Columns 365 through 368
+
+    0.0015    0.0015    0.0015    0.0016
+
+  Columns 369 through 372
+
+    0.0016    0.0016    0.0016    0.0016
+
+  Columns 373 through 376
+
+    0.0016    0.0017    0.0017    0.0017
+
+  Columns 377 through 380
+
+    0.0017    0.0017    0.0018    0.0018
+
+  Columns 381 through 384
+
+    0.0018    0.0018    0.0018    0.0019
+
+  Columns 385 through 388
+
+    0.0019    0.0019    0.0019    0.0020
+
+  Columns 389 through 392
+
+    0.0020    0.0020    0.0020    0.0020
+
+  Columns 393 through 396
+
+    0.0021    0.0021    0.0021    0.0021
+
+  Columns 397 through 400
+
+    0.0022    0.0022    0.0022    0.0022
+
+  Columns 401 through 404
+
+    0.0023    0.0023    0.0023    0.0023
+
+  Columns 405 through 408
+
+    0.0024    0.0024    0.0024    0.0024
+
+  Columns 409 through 412
+
+    0.0025    0.0025    0.0025    0.0026
+
+  Columns 413 through 416
+
+    0.0026    0.0026    0.0026    0.0027
+
+  Columns 417 through 420
+
+    0.0027    0.0027    0.0028    0.0028
+
+  Columns 421 through 424
+
+    0.0028    0.0029    0.0029    0.0029
+
+  Columns 425 through 428
+
+    0.0030    0.0030    0.0030    0.0031
+
+  Columns 429 through 432
+
+    0.0031    0.0031    0.0032    0.0032
+
+  Columns 433 through 436
+
+    0.0032    0.0033    0.0033    0.0034
+
+  Columns 437 through 440
+
+    0.0034    0.0034    0.0035    0.0035
+
+  Columns 441 through 444
+
+    0.0035    0.0036    0.0036    0.0037
+
+  Columns 445 through 448
+
+    0.0037    0.0037    0.0038    0.0038
+
+  Columns 449 through 452
+
+    0.0039    0.0039    0.0040    0.0040
+
+  Columns 453 through 456
+
+    0.0041    0.0041    0.0041    0.0042
+
+  Columns 457 through 460
+
+    0.0042    0.0043    0.0043    0.0044
+
+  Columns 461 through 464
+
+    0.0044    0.0045    0.0045    0.0046
+
+  Columns 465 through 468
+
+    0.0046    0.0047    0.0047    0.0048
+
+  Columns 469 through 472
+
+    0.0049    0.0049    0.0050    0.0050
+
+  Columns 473 through 476
+
+    0.0051    0.0051    0.0052    0.0053
+
+  Columns 477 through 480
+
+    0.0053    0.0054    0.0054    0.0055
+
+  Columns 481 through 484
+
+    0.0056    0.0056    0.0057    0.0057
+
+  Columns 485 through 488
+
+    0.0058    0.0059    0.0059    0.0060
+
+  Columns 489 through 492
+
+    0.0061    0.0062    0.0062    0.0063
+
+  Columns 493 through 496
+
+    0.0064    0.0064    0.0065    0.0066
+
+  Columns 497 through 500
+
+    0.0067    0.0067    0.0068    0.0069
+
+  Columns 501 through 504
+
+    0.0070    0.0070    0.0071    0.0072
+
+  Columns 505 through 508
+
+    0.0073    0.0074    0.0074    0.0075
+
+  Columns 509 through 512
+
+    0.0076    0.0077    0.0078    0.0079
+
+  Columns 513 through 516
+
+    0.0080    0.0081    0.0081    0.0082
+
+  Columns 517 through 520
+
+    0.0083    0.0084    0.0085    0.0086
+
+  Columns 521 through 524
+
+    0.0087    0.0088    0.0089    0.0090
+
+  Columns 525 through 528
+
+    0.0091    0.0092    0.0093    0.0094
+
+  Columns 529 through 532
+
+    0.0095    0.0096    0.0098    0.0099
+
+  Columns 533 through 536
+
+    0.0100    0.0101    0.0102    0.0103
+
+  Columns 537 through 540
+
+    0.0104    0.0106    0.0107    0.0108
+
+  Columns 541 through 544
+
+    0.0109    0.0110    0.0112    0.0113
+
+  Columns 545 through 548
+
+    0.0114    0.0115    0.0117    0.0118
+
+  Columns 549 through 552
+
+    0.0119    0.0121    0.0122    0.0124
+
+  Columns 553 through 556
+
+    0.0125    0.0126    0.0128    0.0129
+
+  Columns 557 through 560
+
+    0.0131    0.0132    0.0134    0.0135
+
+  Columns 561 through 564
+
+    0.0137    0.0138    0.0140    0.0141
+
+  Columns 565 through 568
+
+    0.0143    0.0145    0.0146    0.0148
+
+  Columns 569 through 572
+
+    0.0150    0.0151    0.0153    0.0155
+
+  Columns 573 through 576
+
+    0.0156    0.0158    0.0160    0.0162
+
+  Columns 577 through 580
+
+    0.0164    0.0166    0.0167    0.0169
+
+  Columns 581 through 584
+
+    0.0171    0.0173    0.0175    0.0177
+
+  Columns 585 through 588
+
+    0.0179    0.0181    0.0183    0.0185
+
+  Columns 589 through 592
+
+    0.0187    0.0189    0.0192    0.0194
+
+  Columns 593 through 596
+
+    0.0196    0.0198    0.0200    0.0203
+
+  Columns 597 through 600
+
+    0.0205    0.0207    0.0210    0.0212
+
+  Columns 601 through 604
+
+    0.0214    0.0217    0.0219    0.0222
+
+  Columns 605 through 608
+
+    0.0224    0.0227    0.0229    0.0232
+
+  Columns 609 through 612
+
+    0.0235    0.0237    0.0240    0.0243
+
+  Columns 613 through 616
+
+    0.0245    0.0248    0.0251    0.0254
+
+  Columns 617 through 620
+
+    0.0257    0.0260    0.0263    0.0265
+
+  Columns 621 through 624
+
+    0.0268    0.0272    0.0275    0.0278
+
+  Columns 625 through 628
+
+    0.0281    0.0284    0.0287    0.0290
+
+  Columns 629 through 632
+
+    0.0294    0.0297    0.0300    0.0304
+
+  Columns 633 through 636
+
+    0.0307    0.0311    0.0314    0.0318
+
+  Columns 637 through 640
+
+    0.0321    0.0325    0.0329    0.0332
+
+  Columns 641 through 644
+
+    0.0336    0.0340    0.0344    0.0348
+
+  Columns 645 through 648
+
+    0.0352    0.0356    0.0360    0.0364
+
+  Columns 649 through 652
+
+    0.0368    0.0372    0.0376    0.0381
+
+  Columns 653 through 656
+
+    0.0385    0.0389    0.0394    0.0398
+
+  Columns 657 through 660
+
+    0.0403    0.0407    0.0412    0.0416
+
+  Columns 661 through 664
+
+    0.0421    0.0426    0.0431    0.0435
+
+  Columns 665 through 668
+
+    0.0440    0.0445    0.0450    0.0456
+
+  Columns 669 through 672
+
+    0.0461    0.0466    0.0471    0.0477
+
+  Columns 673 through 676
+
+    0.0482    0.0487    0.0493    0.0498
+
+  Columns 677 through 680
+
+    0.0504    0.0510    0.0516    0.0521
+
+  Columns 681 through 684
+
+    0.0527    0.0533    0.0539    0.0545
+
+  Columns 685 through 688
+
+    0.0552    0.0558    0.0564    0.0570
+
+  Columns 689 through 692
+
+    0.0577    0.0583    0.0590    0.0597
+
+  Columns 693 through 696
+
+    0.0603    0.0610    0.0617    0.0624
+
+  Columns 697 through 700
+
+    0.0631    0.0638    0.0646    0.0653
+
+  Columns 701 through 704
+
+    0.0660    0.0668    0.0675    0.0683
+
+  Columns 705 through 708
+
+    0.0691    0.0699    0.0706    0.0714
+
+  Columns 709 through 712
+
+    0.0722    0.0731    0.0739    0.0747
+
+  Columns 713 through 716
+
+    0.0756    0.0764    0.0773    0.0782
+
+  Columns 717 through 720
+
+    0.0791    0.0799    0.0808    0.0818
+
+  Columns 721 through 724
+
+    0.0827    0.0836    0.0846    0.0855
+
+  Columns 725 through 728
+
+    0.0865    0.0875    0.0885    0.0895
+
+  Columns 729 through 732
+
+    0.0905    0.0915    0.0925    0.0936
+
+  Columns 733 through 736
+
+    0.0946    0.0957    0.0968    0.0979
+
+  Columns 737 through 740
+
+    0.0990    0.1001    0.1012    0.1024
+
+  Columns 741 through 744
+
+    0.1036    0.1047    0.1059    0.1071
+
+  Columns 745 through 748
+
+    0.1083    0.1095    0.1108    0.1120
+
+  Columns 749 through 752
+
+    0.1133    0.1146    0.1159    0.1172
+
+  Columns 753 through 756
+
+    0.1185    0.1199    0.1212    0.1226
+
+  Columns 757 through 760
+
+    0.1240    0.1254    0.1268    0.1282
+
+  Columns 761 through 764
+
+    0.1297    0.1311    0.1326    0.1341
+
+  Columns 765 through 768
+
+    0.1356    0.1372    0.1387    0.1403
+
+  Columns 769 through 772
+
+    0.1419    0.1435    0.1451    0.1468
+
+  Columns 773 through 776
+
+    0.1484    0.1501    0.1518    0.1535
+
+  Columns 777 through 780
+
+    0.1552    0.1570    0.1588    0.1606
+
+  Columns 781 through 784
+
+    0.1624    0.1642    0.1661    0.1680
+
+  Columns 785 through 788
+
+    0.1699    0.1718    0.1737    0.1757
+
+  Columns 789 through 792
+
+    0.1777    0.1797    0.1817    0.1838
+
+  Columns 793 through 796
+
+    0.1859    0.1880    0.1901    0.1922
+
+  Columns 797 through 800
+
+    0.1944    0.1966    0.1988    0.2011
+
+  Columns 801 through 804
+
+    0.2034    0.2057    0.2080    0.2103
+
+  Columns 805 through 808
+
+    0.2127    0.2151    0.2176    0.2200
+
+  Columns 809 through 812
+
+    0.2225    0.2250    0.2276    0.2302
+
+  Columns 813 through 816
+
+    0.2328    0.2354    0.2381    0.2407
+
+  Columns 817 through 820
+
+    0.2435    0.2462    0.2490    0.2518
+
+  Columns 821 through 824
+
+    0.2547    0.2576    0.2605    0.2634
+
+  Columns 825 through 828
+
+    0.2664    0.2694    0.2725    0.2755
+
+  Columns 829 through 832
+
+    0.2787    0.2818    0.2850    0.2882
+
+  Columns 833 through 836
+
+    0.2915    0.2948    0.2981    0.3015
+
+  Columns 837 through 840
+
+    0.3049    0.3083    0.3118    0.3154
+
+  Columns 841 through 844
+
+    0.3189    0.3225    0.3262    0.3299
+
+  Columns 845 through 848
+
+    0.3336    0.3374    0.3412    0.3451
+
+  Columns 849 through 852
+
+    0.3490    0.3529    0.3569    0.3609
+
+  Columns 853 through 856
+
+    0.3650    0.3691    0.3733    0.3775
+
+  Columns 857 through 860
+
+    0.3818    0.3861    0.3905    0.3949
+
+  Columns 861 through 864
+
+    0.3994    0.4039    0.4085    0.4131
+
+  Columns 865 through 868
+
+    0.4178    0.4225    0.4273    0.4321
+
+  Columns 869 through 872
+
+    0.4370    0.4419    0.4469    0.4520
+
+  Columns 873 through 876
+
+    0.4571    0.4623    0.4675    0.4728
+
+  Columns 877 through 880
+
+    0.4781    0.4836    0.4890    0.4946
+
+  Columns 881 through 884
+
+    0.5002    0.5058    0.5115    0.5173
+
+  Columns 885 through 888
+
+    0.5232    0.5291    0.5351    0.5411
+
+  Columns 889 through 892
+
+    0.5472    0.5534    0.5597    0.5660
+
+  Columns 893 through 896
+
+    0.5724    0.5789    0.5855    0.5921
+
+  Columns 897 through 900
+
+    0.5988    0.6056    0.6124    0.6193
+
+  Columns 901 through 904
+
+    0.6263    0.6334    0.6406    0.6478
+
+  Columns 905 through 908
+
+    0.6552    0.6626    0.6701    0.6777
+
+  Columns 909 through 912
+
+    0.6853    0.6931    0.7009    0.7088
+
+  Columns 913 through 916
+
+    0.7169    0.7250    0.7332    0.7415
+
+  Columns 917 through 920
+
+    0.7499    0.7583    0.7669    0.7756
+
+  Columns 921 through 924
+
+    0.7844    0.7932    0.8022    0.8113
+
+  Columns 925 through 928
+
+    0.8205    0.8297    0.8391    0.8486
+
+  Columns 929 through 932
+
+    0.8582    0.8679    0.8777    0.8877
+
+  Columns 933 through 936
+
+    0.8977    0.9079    0.9181    0.9285
+
+  Columns 937 through 940
+
+    0.9390    0.9497    0.9604    0.9713
+
+  Columns 941 through 944
+
+    0.9823    0.9934    1.0046    1.0160
+
+  Columns 945 through 948
+
+    1.0275    1.0391    1.0508    1.0627
+
+  Columns 949 through 952
+
+    1.0747    1.0869    1.0992    1.1116
+
+  Columns 953 through 956
+
+    1.1242    1.1369    1.1498    1.1628
+
+  Columns 957 through 960
+
+    1.1759    1.1893    1.2027    1.2163
+
+  Columns 961 through 964
+
+    1.2301    1.2440    1.2581    1.2723
+
+  Columns 965 through 968
+
+    1.2867    1.3012    1.3160    1.3308
+
+  Columns 969 through 972
+
+    1.3459    1.3611    1.3765    1.3921
+
+  Columns 973 through 976
+
+    1.4078    1.4238    1.4399    1.4562
+
+  Columns 977 through 980
+
+    1.4726    1.4893    1.5061    1.5232
+
+  Columns 981 through 984
+
+    1.5404    1.5578    1.5755    1.5933
+
+  Columns 985 through 988
+
+    1.6113    1.6295    1.6480    1.6666
+
+  Columns 989 through 992
+
+    1.6855    1.7045    1.7238    1.7433
+
+  Columns 993 through 996
+
+    1.7630    1.7830    1.8032    1.8235
+
+  Columns 997 through 1 000
+
+    1.8442    1.8650    1.8861    1.9075
+
+  Columns 1 001 through 1 004
+
+    1.9291    1.9509    1.9729    1.9953
+
+%Вектор-строка 7,8,...,14,15
+7:15
+
+ans =
+
+  Columns 1 through 7
+
+     7     8     9    10    11    12    13
+
+  Columns 8 through 9
+
+    14    15
+
+%Создание матрицы
+A = [11, 12, 13; 14, 15, 16; 17, 18, 19]
+
+A =
+
+    11    12    13
+    14    15    16
+    17    18    19
+
+%создание вектора
+x = [1,2,3]
+
+x =
+
+     1     2     3
+
+3 * x
+
+ans =
+
+     3     6     9
+
+
+
+x + 2
+
+ans =
+
+     3     4     5
+
+y = [4, 9, 6]
+
+y =
+
+     4     9     6
+
+x + y
+
+ans =
+
+     5    11     9
+
+A * y
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Incorrect dimensions for matrix multiplication.
+Check that the number of columns in the first
+matrix matches the number of rows in the second
+matrix. To perform elementwise multiplication,
+use '.*'.
+
+<a href="matlab:helpview('matlab','error_innerdim')" style="font-weight:bold">Related documentation</a>
+} 
+helpview('matlab','error_innerdim')
+y1 = [3,4;7,9]
+
+y1 =
+
+     3     4
+     7     9
+
+A * y1
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Incorrect dimensions for matrix multiplication.
+Check that the number of columns in the first
+matrix matches the number of rows in the second
+matrix. To perform elementwise multiplication,
+use '.*'.
+
+<a href="matlab:helpview('matlab','error_innerdim')" style="font-weight:bold">Related documentation</a>
+} 
+y2 = [11, 12, 13; 14, 15, 16; 17, 18, 19]
+
+y2 =
+
+    11    12    13
+    14    15    16
+    17    18    19
+
+A * y2
+
+ans =
+
+   510   546   582
+   636   681   726
+   762   816   870
+
+B = [1, 2, 3; 1, 5, 6; 7, 8, 9]
+
+B =
+
+     1     2     3
+     1     5     6
+     7     8     9
+
+A * B
+
+ans =
+
+   114   186   222
+   141   231   276
+   168   276   330
+
+A .* B
+
+ans =
+
+    11    24    39
+    14    75    96
+   119   144   171
+
+%Матрица А с 3 степени
+A ^ 3
+
+ans =
+
+       23148       24786       26424
+       28872       30915       32958
+       34596       37044       39492
+
+%Каждый элемент матрицы в 3 степени
+A .^ 3
+
+ans =
+
+        1331        1728        2197
+        2744        3375        4096
+        4913        5832        6859
+
+%Косинус каждого элемента A
+cos(A)
+
+ans =
+
+    0.0044    0.8439    0.9074
+    0.1367   -0.7597   -0.9577
+   -0.2752    0.6603    0.9887
+
+%Модуль каждого элемента
+abs(A)
+
+ans =
+
+    11    12    13
+    14    15    16
+    17    18    19
+
+%Транспонирование A
+A '
+ A '
+   ↑
+{Error: Character vector is not terminated
+properly.
+} 
+A'
+
+ans =
+
+    11    14    17
+    12    15    18
+    13    16    19
+
+%Матрица обратная А
+inv(A)
+[Warning: Matrix is close to singular or badly
+scaled. Results may be inaccurate. RCOND =
+5.119135e-18.] 
+[] 
+
+ans =
+
+   1.0e+15 *
+
+    0.5087   -1.0174    0.5087
+   -1.0174    2.0348   -1.0174
+    0.5087   -1.0174    0.5087
+
+%Определитель матрицы
+det(A)
+
+ans =
+
+  -5.8972e-15
+
+%Собственные значения матрицы
+eig(A)
+
+ans =
+
+   45.3965
+   -0.3965
+   -0.0000
+
+%Размер матрицы
+size(A)
+
+ans =
+
+     3     3
+
+pi
+
+ans =
+
+    3.1416
+
+realmin
+
+ans =
+
+  2.2251e-308
+
+realmax
+
+ans =
+
+  1.7977e+308
+
+Inf
+
+ans =
+
+   Inf
+
+A(2 ,:)
+
+ans =
+
+    14    15    16
+
+A(:,3)
+
+ans =
+
+    13
+    16
+    19
+
+A(1,1:3)
+
+ans =
+
+    11    12    13
+
+v = 4
+
+v =
+
+     4
+
+%проверить,если v равно 8
+v == 8
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+v == 4
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+%Проверить,если v больше или равно 8
+v >= 3
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+%Проверить, если a больше 1 и не равно 10
+a > 1 || a ~= 2
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+%Цикл for 
+for k = 1:5
+disp(k);
+end
+     1
+
+     2
+
+     3
+
+     4
+
+     5
+
+     1
+
+ans =
+
+     1
+
+
+     2
+
+ans =
+
+     2
+
+
+     3
+
+ans =
+
+     3
+
+
+     4
+
+ans =
+
+     4
+
+
+     5
+
+ans =
+
+     5
+
+%Вычисление интеграла функции fun
+doc integral
+fun = @(x) sin(x)./x.^3;
+q = integral(fun,0.1,0.5)
+
+q =
+
+    7.9337
+
+%использование input 
+x = input('Enter num')
+Enter num 15
+
+x =
+
+    15
+
+Enter num 15
+{Unrecognized function or variable 'Enter'.
+} 
+diary off
